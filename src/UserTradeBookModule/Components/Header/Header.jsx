@@ -72,9 +72,9 @@ const Header = () => {
                   >
                     Exchange Ticker
                   </a>
-                  <a className="dropdown-item" href="exchange-light-fluid.html">
+                  <NavLink className="dropdown-item" to="/ExchangeFluid">
                     Exchange Fluid
-                  </a>
+                  </NavLink>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -95,27 +95,18 @@ const Header = () => {
                   <a className="dropdown-item" href="market-capital-light.html">
                     Markets Line
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="market-capital-bar-light.html"
-                  >
+                  <NavLink className="dropdown-item" to="/MarketBar">
                     Markets Bar
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="market-overview-light.html"
-                  >
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/MarketOverview">
                     Market Overview
-                  </a>
-                  <a
-                    className="dropdown-item"
-                    href="market-screener-light.html"
-                  >
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/MarketScreener">
                     Market Screener
-                  </a>
-                  <a className="dropdown-item" href="market-crypto-light.html">
+                  </NavLink>
+                  <NavLink className="dropdown-item" to="/MarketCrypto">
                     Market Crypto
-                  </a>
+                  </NavLink>
                 </div>
               </li>
 
@@ -181,9 +172,9 @@ const Header = () => {
                   <NavLink className="dropdown-item" to="/Signup">
                     Sign up
                   </NavLink>
-                  <a className="dropdown-item" href="404-light.html">
+                  <NavLink className="dropdown-item" to="/ErrorComponent">
                     404
-                  </a>
+                  </NavLink>
                 </div>
               </li>
             </ul>
